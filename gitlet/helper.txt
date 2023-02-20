@@ -1,0 +1,16 @@
+1. delete .gitlet folder (right click)
+2. make (in terminal)
+3. java gitlet.Main init
+4. java gitlet.Main add hello.txt
+5. java gitlet.Main add world.txt (prints in terminal the staged add hashmap)
+6. nano world.txt (change contents)
+7. java gitlet.Main add world.txt (updated blob hash in you printed hashmap)
+
+CHECKOUT FUNCIONALITY
+8. nano world.txt >>> world
+9. java gitlet.Main add world.txt
+10. java gitlet.Main commit "added world"
+11. nano world.txt >>> hello world
+11.5. cat world.txt >>> hello world
+12. java gitlet.Main checkout -- world.txt
+13. cat world.txt >>> world
